@@ -1,0 +1,12 @@
+{
+  "name": "br-pix-key-utils",
+  "version": "1.0.0",
+  "description": "Classifica, normaliza e valida formatos de chaves Pix sem dependências.",
+  "type": "module",
+  "bin": { "pix-key": "./src/cli.js" },
+  "exports": "./src/index.js",
+  "scripts": { "test": "node --test" },
+  "keywords": ["pix", "cpf", "cnpj", "brazil", "validation"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
